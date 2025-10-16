@@ -31,7 +31,6 @@ Esta API es un proyecto de práctica pensado para consumir desde aplicaciones fr
 
 ```bash
 git clone git@github.com:EmersonTejada/users-admin-api.git
-cd users-admin-api/backend
 ```
 
 2. Instala dependencias:
