@@ -20,7 +20,7 @@ export const usersCreatePost: RequestHandler = async (req, res) => {
   } else {
     const user: User = await matchedData(req);
     await userModel.createUser(user);
-    res.send(`Usuario Creado Exitosamente`);
+    res.json({message: "Usuario creado exitosamente"});
   }
 };
 
